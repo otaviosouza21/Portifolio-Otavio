@@ -1,8 +1,19 @@
 import React from 'react'
+import style from '../assets/css/Button.module.css'
 
-const Button = () => {
+type buttonType ={
+  text: string,
+  icon?: string
+}
+
+const Button = ({text,icon}:buttonType) => {
+  console.log(icon);
+  
   return (
-    <div>Button</div>
+    <button className={style.button}>
+      {text}
+      {icon !== null &&  <img className={style.icon} src={icon} alt="" />}
+    </button>
   )
 }
 

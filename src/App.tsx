@@ -9,13 +9,14 @@ import Tecnologias from "./Sections/Tecnologias";
 function App() {
   return (
     <> 
-    teste
       <Header />
       <SobreMim />
       <Projetos />
+     {/*  <SobreMim />
+      <Projetos />
       <Tecnologias />
       <Certificacoes />
-      <Contato />
+      <Contato /> */}
     </>
   );
 }

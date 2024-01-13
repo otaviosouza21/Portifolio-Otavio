@@ -1,0 +1,54 @@
+.button{
+  max-width: 325px;
+  max-height: 95px;
+  border-radius: 5px;
+  border: none;
+  background: linear-gradient(180deg, #4C71BA 0%, #2159C9 100%);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  font-size: 1.9rem;
+  font-family: 'Poppins';
+  color:#CACACA ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 36px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+.button:hover{
+  background: linear-gradient(180deg, #4C71BA 0%, #326ce1 100%);
+  transition: .5s;
+}
+
+.icon{
+  width: 45px;
+}
+
+@media (max-width:1000px) {
+  .button{
+   gap: 8px;
+    max-width: 280px;
+    max-height: 68px;
+    font-size: 1.5rem;
+  }
+
+  .icon{
+    width: 35px;
+  }
+}
+
+@media (max-width:600px) {
+  .button{
+   gap: 6px;
+    max-width: 240px;
+    max-height: 56px;
+    font-size: 1.1rem;
+  }
+
+  .icon{
+    width: 30px;
+  }
+}

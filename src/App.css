@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol, ul,li {
 	list-style: none;
 }
 blockquote, q {
@@ -46,4 +46,24 @@ table {
 
 body{
     font-family: 'Poppins', sans-serif;
+		color:#9E9E9E ;
+		background-color: #CACACA;
+}
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+hr{
+	border: 1px solid #AAAAAA; /* Cor em formato hexadecimal (vermelho neste exemplo) */
+	margin: 8px 0;
+}
+
+g{
+	display: none;
 }

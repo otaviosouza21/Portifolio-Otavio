@@ -1,0 +1,29 @@
+.contatoContainer{
+  background: #272727;
+  color: #FFFFFF !important;
+
+}
+
+.contato{
+
+  padding: 30px 0
+}
+
+.contatoLista{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 40px;
+
+}
+.contatoLista li{
+  display: flex;  
+  align-items: center;
+gap: 10px;
+}
+.contatoLista li span{
+  font-size: 1.87rem;
+}
+
+.contatoLista li img{
+  width: 70px;
+}

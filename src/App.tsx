@@ -12,11 +12,9 @@ function App() {
       <Header />
       <SobreMim />
       <Projetos />
-     {/*  <SobreMim />
-      <Projetos />
       <Tecnologias />
       <Certificacoes />
-      <Contato /> */}
+      <Contato />
     </>
   );
 }

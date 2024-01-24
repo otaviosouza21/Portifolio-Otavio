@@ -1,6 +1,6 @@
-  .container{
-    margin-top: 90px
-  }
+.container{
+ margin: 40px auto;
+}
 
   .titulo{
     font-size: 5.31rem;
@@ -17,15 +17,12 @@
   }
 
   @media (max-width:1000px) {
-    .container{
-      margin-top: 30px;
+    .titulo{
+      font-size: 4rem;
     }
   }
 
   @media (max-width:680px) {
-    .container{
-      margin-top: 12px;
-    }
     .titulo{
       font-size: 3.5rem;
     }
